@@ -1,0 +1,7 @@
+*.swp
+*.swo
+.DS_Store
+reactjs/build
+*.zip
+reactjs/node_modules
+*config.js
