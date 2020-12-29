@@ -1,0 +1,15 @@
+version: '2'
+services:
+    reactjs:
+        build: reactjs/.
+        command: serve -s ./build/. -p 80
+        volumes:
+            - ./reactjs/:/reactjs
+            - /reactjs/node_modules
+        restart: always
+        mem_limit: 64m
+        networks:
+            - nginx_default
+networks:
+    nginx_default:
+        external: true

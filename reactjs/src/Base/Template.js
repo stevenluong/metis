@@ -40,7 +40,7 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 
 //CONFIG
-import apiConfig from './apiConfig';
+//import oktaConfig from './okta.config';
 import helpers from '../User/helpers';
 import data from './data.js';
 
